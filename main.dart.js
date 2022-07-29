@@ -68369,30 +68369,32 @@ Pv(a,b){var s="nominees",r=this.e
 if(b>=J.bA(r.h(0,s)))J.ev(r.h(0,s),a)
 else J.e8(r.h(0,s),b,a)
 this.an(new A.ab7())},
-aL(){this.bb()
-this.Pq(this.d)},
-L(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="nominees",f=new A.fg("mutation updateEmployeeProfilepic($id: BigInt, $address: String, $employeeName: String, $employmentStatus: String, $grade: String, $hrId: String, $legalName: String, $department: String, $residentialStatus: String, $contactNumber: String, $email: String, $nominees :[NomineeInput], $profileImageFile: Upload, $profileImageFileName: String, $isConfirmedNominees: Boolean) {\n              updateEmployee(input: {id: $id, address: $address, employeeName: $employeeName, employmentStatus: $employmentStatus, grade: $grade, hrId: $hrId, legalName: $legalName, department: $department, residentialStatus: $residentialStatus, contactNumber: $contactNumber,nominees: $nominees, email: $email, profileImageFile: $profileImageFile, profileImageFileName: $profileImageFileName, isConfirmedNominees: $isConfirmedNominees} ){\n                id\n                contactNumber\n                nominees{\n                  name\n                  percentageAlloted\n                  employeeRelationship\n                  lastUpdate\n                }\n                image{\n                  fileUrl\n                }\n              }\n            }\n    "),e=A.a([0],t.t)
-e=new A.a6u(h,e,new Uint32Array(A.uG(f.fi(f))))
-e.VP(f,h)
-s=new A.a_R().ads(e)
-r=new A.OO(s,s.length)
-r.z1(B.vf,r.ga2x(),B.kW,t.Kz)
-f=i.e
-e=f.h(0,g)
-e.toString
-if(J.bA(e)===0)i.Kb()
-e=A.alG(B.k,!0,0,A.wO(h,A.Zv(B.mB,B.o),h,new A.aaM(b),h),A.m0("Full Profile",h,h,h,h,h,h,h,A.dk(h,h,B.o,h,h,h,h,h,h,h,h,23,h,B.u,h,h,!0,h,h,h,h,h,h,h,h),h,h,h))
-q=t.w
-p=b.N(q).f
-o=new A.aaT(b,new A.aaS(i,b),new A.aaY(i,b),new A.aaU(i,b,new A.aaR(i),new A.aaQ())).$0()
-n=new A.aaP().$0()
-m=new A.ab0(i).$0()
-l=b.N(q).f
-k=t.p
-j=A.rc(A.a([A.kI(A.d6(h,h,A.dk(h,h,new A.A(4278190080),h,h,h,h,h,h,h,h,16,h,B.mu,h,h,!0,h,1.2,h,h,h,h,h,h),"Nominee Information"),h,h),B.J2,A.amx(A.cd(h,h,h,h,A.amm(new A.A(4289835441),B.mL,B.kP),h,h,h,h))],k),B.aK,h,B.aR,B.aq)
-f=J.bA(f.h(0,g))
-f=A.ha(A.mP(A.a([o,n,m,A.mP(A.a([new A.df(new A.al(0,l.a.b*0.045,0,0),j,h),new A.df(new A.al(16,0,16,0),new A.xq(new A.a6m(new A.aaN(i),f,!0,!0,!0,h),new A.al(0,10,0,0),B.aH,!1,h,!0,new A.HG(h),!0,h,f,B.aN,B.uu,h,B.ai,h),h),new A.df(new A.al(0,b.N(q).f.a.b*0.0147,0,b.N(q).f.a.b*0.0147),A.wO(h,A.Zv(B.mA,h),h,new A.aaO(i),h),h)],k),B.cd,B.aR,B.aq),new A.df(new A.al(16,0,16,0),new A.aaV(i,b).$0(),h)],k),B.aK,B.aR,B.aq),h,p.a.a)
-return A.aio(e,new A.Ka(!0,new A.wC(f,B.f5,i.f),h),h)}}
+aL(){this.bb()},
+L(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="nominees"
+g.Pq(g.d)
+s=new A.fg("mutation updateEmployeeProfilepic($id: BigInt, $address: String, $employeeName: String, $employmentStatus: String, $grade: String, $hrId: String, $legalName: String, $department: String, $residentialStatus: String, $contactNumber: String, $email: String, $nominees :[NomineeInput], $profileImageFile: Upload, $profileImageFileName: String, $isConfirmedNominees: Boolean) {\n              updateEmployee(input: {id: $id, address: $address, employeeName: $employeeName, employmentStatus: $employmentStatus, grade: $grade, hrId: $hrId, legalName: $legalName, department: $department, residentialStatus: $residentialStatus, contactNumber: $contactNumber,nominees: $nominees, email: $email, profileImageFile: $profileImageFile, profileImageFileName: $profileImageFileName, isConfirmedNominees: $isConfirmedNominees} ){\n                id\n                contactNumber\n                nominees{\n                  name\n                  percentageAlloted\n                  employeeRelationship\n                  lastUpdate\n                }\n                image{\n                  fileUrl\n                }\n              }\n            }\n    ")
+r=A.a([0],t.t)
+r=new A.a6u(f,r,new Uint32Array(A.uG(s.fi(s))))
+r.VP(s,f)
+q=new A.a_R().ads(r)
+p=new A.OO(q,q.length)
+p.z1(B.vf,p.ga2x(),B.kW,t.Kz)
+s=g.e
+r=s.h(0,e)
+r.toString
+if(J.bA(r)===0)g.Kb()
+r=A.alG(B.k,!0,0,A.wO(f,A.Zv(B.mB,B.o),f,new A.aaM(b),f),A.m0("Full Profile",f,f,f,f,f,f,f,A.dk(f,f,B.o,f,f,f,f,f,f,f,f,23,f,B.u,f,f,!0,f,f,f,f,f,f,f,f),f,f,f))
+o=t.w
+n=b.N(o).f
+m=new A.aaT(b,new A.aaS(g,b),new A.aaY(g,b),new A.aaU(g,b,new A.aaR(g),new A.aaQ())).$0()
+l=new A.aaP().$0()
+k=new A.ab0(g).$0()
+j=b.N(o).f
+i=t.p
+h=A.rc(A.a([A.kI(A.d6(f,f,A.dk(f,f,new A.A(4278190080),f,f,f,f,f,f,f,f,16,f,B.mu,f,f,!0,f,1.2,f,f,f,f,f,f),"Nominee Information"),f,f),B.J2,A.amx(A.cd(f,f,f,f,A.amm(new A.A(4289835441),B.mL,B.kP),f,f,f,f))],i),B.aK,f,B.aR,B.aq)
+s=J.bA(s.h(0,e))
+s=A.ha(A.mP(A.a([m,l,k,A.mP(A.a([new A.df(new A.al(0,j.a.b*0.045,0,0),h,f),new A.df(new A.al(16,0,16,0),new A.xq(new A.a6m(new A.aaN(g),s,!0,!0,!0,f),new A.al(0,10,0,0),B.aH,!1,f,!0,new A.HG(f),!0,f,s,B.aN,B.uu,f,B.ai,f),f),new A.df(new A.al(0,b.N(o).f.a.b*0.0147,0,b.N(o).f.a.b*0.0147),A.wO(f,A.Zv(B.mA,f),f,new A.aaO(g),f),f)],i),B.cd,B.aR,B.aq),new A.df(new A.al(16,0,16,0),new A.aaV(g,b).$0(),f)],i),B.aK,B.aR,B.aq),f,n.a.a)
+return A.aio(r,new A.Ka(!0,new A.wC(s,B.f5,g.f),f),f)}}
 A.ab6.prototype={
 $1(a){return A.Hc(a.eu(),t.N,t.z)},
 $S:154}
