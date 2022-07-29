@@ -20445,7 +20445,9 @@ _.d=a
 _.e=b
 _.f=c
 _.r=d
-_.a=_.y=_.x=null
+_.y=_.x=null
+_.Q=!1
+_.a=null
 _.b=e
 _.c=null},
 ab6:function ab6(){},
@@ -68369,10 +68371,11 @@ Pv(a,b){var s="nominees",r=this.e
 if(b>=J.bA(r.h(0,s)))J.ev(r.h(0,s),a)
 else J.e8(r.h(0,s),b,a)
 this.an(new A.ab7())},
-aL(){this.bb()},
+aL(){this.bb()
+this.Q=!0},
 L(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="nominees"
-g.Pq(g.d)
-s=new A.fg("mutation updateEmployeeProfilepic($id: BigInt, $address: String, $employeeName: String, $employmentStatus: String, $grade: String, $hrId: String, $legalName: String, $department: String, $residentialStatus: String, $contactNumber: String, $email: String, $nominees :[NomineeInput], $profileImageFile: Upload, $profileImageFileName: String, $isConfirmedNominees: Boolean) {\n              updateEmployee(input: {id: $id, address: $address, employeeName: $employeeName, employmentStatus: $employmentStatus, grade: $grade, hrId: $hrId, legalName: $legalName, department: $department, residentialStatus: $residentialStatus, contactNumber: $contactNumber,nominees: $nominees, email: $email, profileImageFile: $profileImageFile, profileImageFileName: $profileImageFileName, isConfirmedNominees: $isConfirmedNominees} ){\n                id\n                contactNumber\n                nominees{\n                  name\n                  percentageAlloted\n                  employeeRelationship\n                  lastUpdate\n                }\n                image{\n                  fileUrl\n                }\n              }\n            }\n    ")
+if(g.Q){g.Pq(g.d)
+g.Q=!1}s=new A.fg("mutation updateEmployeeProfilepic($id: BigInt, $address: String, $employeeName: String, $employmentStatus: String, $grade: String, $hrId: String, $legalName: String, $department: String, $residentialStatus: String, $contactNumber: String, $email: String, $nominees :[NomineeInput], $profileImageFile: Upload, $profileImageFileName: String, $isConfirmedNominees: Boolean) {\n              updateEmployee(input: {id: $id, address: $address, employeeName: $employeeName, employmentStatus: $employmentStatus, grade: $grade, hrId: $hrId, legalName: $legalName, department: $department, residentialStatus: $residentialStatus, contactNumber: $contactNumber,nominees: $nominees, email: $email, profileImageFile: $profileImageFile, profileImageFileName: $profileImageFileName, isConfirmedNominees: $isConfirmedNominees} ){\n                id\n                contactNumber\n                nominees{\n                  name\n                  percentageAlloted\n                  employeeRelationship\n                  lastUpdate\n                }\n                image{\n                  fileUrl\n                }\n              }\n            }\n    ")
 r=A.a([0],t.t)
 r=new A.a6u(f,r,new Uint32Array(A.uG(s.fi(s))))
 r.VP(s,f)
