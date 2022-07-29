@@ -68395,27 +68395,25 @@ o=a.z.a
 if(o.length!==0)r.x=new A.qe(A.anX(p,p,new A.qJ(o,1,p)),p,p)
 o=r.w
 if(o!=null)r.x=A.amV(o,p)},
-L(a,b){var s,r,q,p,o,n,m,l,k=this,j=null,i=A.a2B(2019,1,1,0,0,0,0,!1)
-if(!A.i7(i))A.N(A.jg(i))
+L(a,b){var s,r,q,p,o,n,m=this,l=null,k=A.a2B(2019,1,1,0,0,0,0,!1)
+if(!A.i7(k))A.N(A.jg(k))
 s=t.z
-r=new A.Wy("ashutosh+02@rulezero.com",603212,"Ashutosh","Employed","India","e02","123456789","Engineering",new A.cD(i,!1),!0,new A.ZS(""),new A.UH("",0,"",!1,new A.X8(A.a([new A.pZ("","")],t.OT),A.B(s,s),!1,!1,!1,!1),!1),A.a([],t.my),A.a([new A.nG(626067,"Others",j,"sads",0.68),new A.nG(626067,"Others",j,"sads",0.32)],t.YM))
-k.Pq(r)
+r=new A.Wy("ashutosh+02@rulezero.com",603212,"Ashutosh","Employed","India","e02","123456789","Engineering",new A.cD(k,!1),!0,new A.ZS(""),new A.UH("",0,"",!1,new A.X8(A.a([new A.pZ("","")],t.OT),A.B(s,s),!1,!1,!1,!1),!1),A.a([],t.my),A.a([new A.nG(626067,"Others",l,"sads",0.68),new A.nG(626067,"Others",l,"sads",0.32)],t.YM))
+m.Pq(r)
 s=new A.fg("mutation updateEmployeeProfilepic($id: BigInt, $address: String, $employeeName: String, $employmentStatus: String, $grade: String, $hrId: String, $legalName: String, $department: String, $residentialStatus: String, $contactNumber: String, $email: String, $nominees :[NomineeInput], $profileImageFile: Upload, $profileImageFileName: String, $isConfirmedNominees: Boolean) {\n              updateEmployee(input: {id: $id, address: $address, employeeName: $employeeName, employmentStatus: $employmentStatus, grade: $grade, hrId: $hrId, legalName: $legalName, department: $department, residentialStatus: $residentialStatus, contactNumber: $contactNumber,nominees: $nominees, email: $email, profileImageFile: $profileImageFile, profileImageFileName: $profileImageFileName, isConfirmedNominees: $isConfirmedNominees} ){\n                id\n                contactNumber\n                nominees{\n                  name\n                  percentageAlloted\n                  employeeRelationship\n                  lastUpdate\n                }\n                image{\n                  fileUrl\n                }\n              }\n            }\n    ")
-i=A.a([0],t.t)
-i=new A.a6w(j,i,new Uint32Array(A.uG(s.fi(s))))
-i.VP(s,j)
-q=new A.a_T().ads(i)
+k=A.a([0],t.t)
+k=new A.a6w(l,k,new Uint32Array(A.uG(s.fi(s))))
+k.VP(s,l)
+q=new A.a_T().ads(k)
 p=new A.OQ(q,q.length)
 p.z1(B.vf,p.ga2x(),B.kW,t.Kz)
-i=A.alI(B.k,!0,0,A.wO(j,A.Zx(B.mB,B.o),j,new A.aaN(b),j),A.m0("Full Profile",j,j,j,j,j,j,j,A.dk(j,j,B.o,j,j,j,j,j,j,j,j,23,j,B.u,j,j,!0,j,j,j,j,j,j,j,j),j,j,j))
+k=A.alI(B.k,!0,0,A.wO(l,A.Zx(B.mB,B.o),l,new A.aaN(b),l),A.m0("Full Profile",l,l,l,l,l,l,l,A.dk(l,l,B.o,l,l,l,l,l,l,l,l,23,l,B.u,l,l,!0,l,l,l,l,l,l,l,l),l,l,l))
 s=b.N(t.w).f
-o=new A.aaS(b,new A.aaR(k,b,r),new A.aaX(k,b),new A.aaT(b,new A.aaQ(r),new A.aaP(),r)).$0()
-n=new A.aaO().$0()
-m=new A.ab_(k,r).$0()
-l=k.d.h(0,"nominees")
-if(l==null)l=A.a([],t.H7)
-s=A.ha(A.mP(A.a([o,n,m,new A.df(new A.al(16,0,16,0),new A.y0(l,j),j),new A.df(new A.al(16,0,16,0),new A.aaU(k,r,b).$0(),j)],t.p),B.aK,B.aR,B.aq),j,s.a.a)
-return A.aiq(i,new A.Kb(!0,new A.wC(s,B.f5,k.e),j),j)}}
+o=new A.aaS(b,new A.aaR(m,b,r),new A.aaX(m,b),new A.aaT(b,new A.aaQ(r),new A.aaP(),r)).$0()
+n=m.d.h(0,"nominees")
+if(n==null)n=A.a([],t.H7)
+s=A.ha(A.mP(A.a([o,new A.df(new A.al(16,0,16,0),new A.y0(n,l),l),new A.aaO().$0(),new A.ab_(m,r).$0(),new A.df(new A.al(16,0,16,0),new A.aaU(m,r,b).$0(),l)],t.p),B.aK,B.aR,B.aq),l,s.a.a)
+return A.aiq(k,new A.Kb(!0,new A.wC(s,B.f5,m.e),l),l)}}
 A.ab4.prototype={
 $1(a){return A.Hd(a.eu(),t.N,t.z)},
 $S:154}
